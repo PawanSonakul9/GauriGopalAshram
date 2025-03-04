@@ -43,7 +43,7 @@
     </style>
     <script>
         function donate() {
-            window.location.href = "https://pay.google.com/gp/p/ui/pay?pa=7620919788@fam&pn=Donation&cu=INR";
+            window.location.href = "upi://pay?pa=7620919788@fam&pn=Donation&mc=0000&tid=123456&tr=Donation&tn=Support%20Pind%20Daan&cu=INR";
         }
     </script>
 </head>
@@ -57,11 +57,11 @@
             <h2>Make a Donation</h2>
             <p>Scan the QR code or use the UPI ID: <strong>7620919788@fam</strong></p>
             <div class="qr-code">
-                <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://pay.google.com/gp/p/ui/pay?pa=7620919788@fam&pn=Donation&cu=INR" alt="UPI QR Code">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=upi://pay?pa=7620919788@fam&pn=Donation&mc=0000&tid=123456&tr=Donation&tn=Support%20Pind%20Daan&cu=INR" alt="UPI QR Code">
             </div>
             <p>Or click the button below to donate:</p>
             <button onclick="donate()">Donate Now</button>
-            <p><a href="https://pay.google.com/gp/p/ui/pay?pa=7620919788@fam&pn=Donation&cu=INR">Click here to donate via UPI</a></p>
+            <p><a href="upi://pay?pa=7620919788@fam&pn=Donation&mc=0000&tid=123456&tr=Donation&tn=Support%20Pind%20Daan&cu=INR">Click here to donate via UPI</a></p>
         </div>
     </div>
 </body>
